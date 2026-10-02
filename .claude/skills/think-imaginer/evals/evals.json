@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-imaginer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I run a cooperative of about 40 small olive farmers in southern Spain. Margins shrink every year and everyone's plan is 'a bit more efficiency'. Give me a moonshot — what does our co-op look like in 2036 if anything were possible? Then work back to something we could start this month.",
+      "expected_output": "An Imaginer's vision built on one chosen present-tense end state (picked from 2–3 painted visions, one extreme), a backcast path of dated milestones ending in a concrete first move for this month, a leap audit that separates impossible, not-yet (dated), and unprecedented leaps with the unprecedented one flagged as the opportunity, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "think-imaginer-canvas-painter was spawned first, and think-imaginer-backcaster and think-imaginer-impossibility-auditor were spawned afterwards together in a single message (in parallel), not one after the other",
+        "The canvas painter's output contains 2–3 visions written in present tense as concrete day-in-the-life scenes, with exactly one marked as the extreme vision",
+        "Every audited leap is classified as impossible, not-yet, or unprecedented-but-possible, and every not-yet leap carries an estimated year range",
+        "The backcast ends in a concrete first move startable this month that names an action and who does it, not a generic step like 'explore options'",
+        "The final output flags at least one unprecedented-but-possible leap as the opportunity and ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We make a language-learning app. Leadership wants a 10x idea, not another streak feature. If anything were possible, what would learning a language look like ten years from now? Then tell me which parts are genuinely impossible versus just not invented yet, and what we'd do first.",
+      "expected_output": "A non-incremental chosen vision with a one-line reason it beat the alternatives, a backcast written as states stepping back to a first move, and a reconciliation where impossible leaps (backed by a named law or contradiction) are rerouted, not-yet leaps are tied to a named technology curve with a date range, and cost/regulation/habit barriers are never labelled impossible.",
+      "files": [],
+      "expectations": [
+        "The chosen vision is not merely incremental (not just better gamification or more AI exercises), and the output states in one line why it was chosen over the other visions",
+        "Any leap classified impossible names the physical law or logical contradiction it violates, and no leap blocked only by cost, regulation, or habit is classified impossible",
+        "Not-yet leaps name the technology or cost curve they depend on (e.g. on-device speech model latency, wearable cost) with an estimated year range",
+        "In the final reconciliation, any backcast step that depended on an impossible leap is rerouted or dropped rather than kept unchanged",
+        "Backcast milestones are written as states true at a date (not tasks) and step back to a first move startable this month"
+      ]
+    }
+  ]
+}

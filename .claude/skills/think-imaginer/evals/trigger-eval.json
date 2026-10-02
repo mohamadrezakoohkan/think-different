@@ -1,0 +1,22 @@
+[
+  { "query": "If anything were possible, what would our hospital's emergency department look like in 2035? Then work backwards to what we can start this month.", "should_trigger": true },
+  { "query": "We need a north star for the company. Paint a 10-year vision of what our accounting software makes possible for small businesses, then backcast it to today.", "should_trigger": true },
+  { "query": "Give me a moonshot for our city's recycling program — something 10x better, not 10%.", "should_trigger": true },
+  { "query": "Dream big with me: what does grocery shopping look like once it's completely solved? Then tell me which parts are actually impossible and which just haven't been done yet.", "should_trigger": true },
+  { "query": "honestly our roadmap is all incremental stuff. imagine what our fitness app would be in 10 years with zero constraints", "should_trigger": true },
+  { "query": "Backcast from a future where our university has no lecture halls at all — what had to happen, step by step, to get there from today?", "should_trigger": true },
+  { "query": "Everyone says fully autonomous farm logistics is impossible. Imagine it already exists, describe a day in it, and audit which leaps are truly impossible versus just unprecedented.", "should_trigger": true },
+  { "query": "What's the 10x version of our customer support? Picture the end state as if it already exists and walk it back to a first step.", "should_trigger": true },
+  { "query": "Think like an imaginer about the future of our small local theatre company.", "should_trigger": true },
+  { "query": "Write a day in the life of a nurse in 2040 where our shift-scheduling problem simply doesn't exist, then give me the path back to now.", "should_trigger": true },
+  { "query": "We're a mid-size law firm. Starting from a blank canvas, what would legal services look like in 2036? I want the vision and our first move.", "should_trigger": true },
+  { "query": "Imagine the ideal end state for our open-source project's contributor experience, then reverse-engineer the milestones that get us there.", "should_trigger": true },
+  { "query": "Our board wants a bold 10-year vision for the airline's ground operations. Go wild, then separate what's physically impossible from what's merely not-yet.", "should_trigger": true },
+  { "query": "what would home energy look like if anything were possible? work backwards from that to something our startup could try this month", "should_trigger": true },
+  { "query": "Set a north-star vision for our kids' coding school — not next quarter's plan, the world we're trying to create — and backcast it.", "should_trigger": true },
+  { "query": "Invent a mechanism that lets our delivery drone carry heavier payloads without cutting flight time — resolve that trade-off.", "should_trigger": false },
+  { "query": "We already have our 10-year vision written down. Turn it into a keynote opener that makes the whole team care.", "should_trigger": false },
+  { "query": "What weak signals and anomalies in our usage data are we missing?", "should_trigger": false },
+  { "query": "Run a full think-different session on reinventing public libraries, using whichever crazy-one roles fit.", "should_trigger": false },
+  { "query": "Update the README to document the new environment variables.", "should_trigger": false }
+]

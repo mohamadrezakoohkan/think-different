@@ -1,0 +1,22 @@
+[
+  { "query": "Customers keep cancelling our meal-kit subscription after the first month. Figure out what's actually hurting them and what would fix it at the root.", "should_trigger": true },
+  { "query": "Run a 5 whys on why failed-payment tickets keep coming back no matter how many patches we ship.", "should_trigger": true },
+  { "query": "Our teachers say the new grading software is 'fine' but they're staying until 7pm every night. What's the real pain here and how do we heal it?", "should_trigger": true },
+  { "query": "People hate our checkout. Map who's hurting and why before we redesign anything.", "should_trigger": true },
+  { "query": "ugh, everyone on the team is burnt out from on-call. what's actually causing it and how do we fix it without just dumping it on someone else?", "should_trigger": true },
+  { "query": "Patients at our clinic miss follow-up appointments at a crazy rate. Put yourself in their shoes and find the root cause.", "should_trigger": true },
+  { "query": "Our app store reviews are full of one-star rants about notifications. Dig into the pain behind them — is it really the notifications?", "should_trigger": true },
+  { "query": "Why do new hires at our warehouse quit in the first two weeks? Find the root cause and suggest humane fixes.", "should_trigger": true },
+  { "query": "Fix what hurts: our tenants keep complaining that maintenance requests disappear into a black hole.", "should_trigger": true },
+  { "query": "The loudest complaint from our marketplace sellers is fees, but I suspect something deeper. Who's really in pain and why?", "should_trigger": true },
+  { "query": "Volunteers at our food bank are drifting away. Map their pain — practical, emotional, social — and what they're doing to work around it.", "should_trigger": true },
+  { "query": "Parents keep emailing the school office about the same lunch-payment problem. Trace it to the cause and design a remedy that doesn't just shift the load onto office staff.", "should_trigger": true },
+  { "query": "Our internal developer platform has a terrible NPS. Where's the pain, how bad is it, and what's the underlying cause?", "should_trigger": true },
+  { "query": "Be the healer for our older customers who are struggling with the bank's new app — what hurts, why, and what would genuinely help?", "should_trigger": true },
+  { "query": "Drivers on our delivery platform keep rejecting orders from one cluster of restaurants. What's the root cause, and how do we fix it without hurting the restaurants?", "should_trigger": true },
+  { "query": "Are we even solving the right problem with our onboarding redesign? Reframe it a few ways as how-might-we questions.", "should_trigger": false },
+  { "query": "Give me a full think-different session with crazy, out-of-the-box ideas for our coffee shop's loyalty program, using whichever roles fit.", "should_trigger": false },
+  { "query": "Here's our plan to reduce churn next quarter — run a pre-mortem and tell me how it fails.", "should_trigger": false },
+  { "query": "Invent a new mechanism that lets a group split a restaurant bill without anyone having to pay first.", "should_trigger": false },
+  { "query": "Write the release notes for version 3.2 from the CHANGELOG.", "should_trigger": false }
+]

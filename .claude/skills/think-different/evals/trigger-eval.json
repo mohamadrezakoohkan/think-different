@@ -1,0 +1,22 @@
+[
+  { "query": "Help me think differently about how our company onboards new hires — everything we've tried feels the same.", "should_trigger": true },
+  { "query": "Think outside the box on our coffee shop's slow afternoons. I want genuinely unconventional ideas, not more discounts.", "should_trigger": true },
+  { "query": "Run a full innovation session on reducing food waste in school cafeterias — use whatever creative lenses make sense.", "should_trigger": true },
+  { "query": "Here's to the crazy ones: give me the crazy-ones treatment on our dying podcast.", "should_trigger": true },
+  { "query": "I'm stuck. Which lens should I use to rethink our product roadmap, and can you run it?", "should_trigger": true },
+  { "query": "think different about our hospital's ER wait times", "should_trigger": true },
+  { "query": "We need a breakthrough in how we sell solar panels to apartment renters. Break out of conventional thinking for me.", "should_trigger": true },
+  { "query": "Give me crazy ideas for making tax filing something people look forward to, then pick the best and make it concrete.", "should_trigger": true },
+  { "query": "Rethink our nonprofit's fundraising end to end — I want a fresh take, not best practices.", "should_trigger": true },
+  { "query": "Our team keeps producing incremental feature ideas. Run a creative session that gets us somewhere radically new.", "should_trigger": true },
+  { "query": "help me rethink this: kids hate practicing piano", "should_trigger": true },
+  { "query": "We're a mid-size law firm. Everyone bills hourly. Take a completely unconventional look at our whole business.", "should_trigger": true },
+  { "query": "Do a moonshot-style session on urban parking, using multiple thinking roles and give me one idea worth pursuing.", "should_trigger": true },
+  { "query": "Convene the misfits, rebels and troublemakers on our recruiting problem and tell me what they'd do.", "should_trigger": true },
+  { "query": "I want an unconventional strategy for entering the Japanese market with our B2B tool — think differently, not consulting-deck style.", "should_trigger": true },
+  { "query": "Just use the rebel lens: which of our support team's rules are dead and should be broken?", "should_trigger": false },
+  { "query": "Write a pitch that makes investors care about our soil-sensor startup.", "should_trigger": false },
+  { "query": "What year did Apple run the Think Different campaign?", "should_trigger": false },
+  { "query": "Refactor the payment service to use the new retry helper.", "should_trigger": false },
+  { "query": "Make a project plan with milestones and owners for our Q3 website migration.", "should_trigger": false }
+]

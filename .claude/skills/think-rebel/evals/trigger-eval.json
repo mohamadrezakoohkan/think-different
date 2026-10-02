@@ -1,0 +1,22 @@
+[
+  { "query": "Every SaaS in our space charges per seat per month. Question that and every other pricing assumption we've inherited — which ones are actually real?", "should_trigger": true },
+  { "query": "Why do restaurants still make you wait for the bill at the end? Challenge all the assumptions of how a sit-down meal works and break the dead ones.", "should_trigger": true },
+  { "query": "Rethink our hiring process from first principles — we copied it from Google years ago and I suspect most steps are cargo cult.", "should_trigger": true },
+  { "query": "Be a rebel about our onboarding flow. Which 'best practices' are we following just because everyone does?", "should_trigger": true },
+  { "query": "What if we didn't have to ship mobile releases through the app store review cycle at all? Break the rules on how we deliver updates.", "should_trigger": true },
+  { "query": "Our university course has lectures, midterms, a final exam and grades on a curve. Which of those conventions still earn their place and what would we do without the dead ones?", "should_trigger": true },
+  { "query": "Our sales team insists enterprise deals need a 6-month cycle with RFPs. I think that's a status quo nobody challenges. Tear into it.", "should_trigger": true },
+  { "query": "List the hidden constraints we've imposed on ourselves for this product launch, figure out which are real, and show me what opens up if we drop the fake ones.", "should_trigger": true },
+  { "query": "The industry standard says warehouses must be near highways. Is that a law of nature or a habit? Rebuild warehouse siting from first principles.", "should_trigger": true },
+  { "query": "Why do we do quarterly planning this way? Question every rule baked into it and tell me what we'd do differently if we ignored the inherited ones.", "should_trigger": true },
+  { "query": "Think like a rebel: our newsletter follows every growth-hacking rule and it's boring. Which rules should we break?", "should_trigger": true },
+  { "query": "Insurance claims always require the customer to prove the loss. Invert that assumption and the other conventions of claims handling — what becomes possible?", "should_trigger": true },
+  { "query": "Our band always releases an album, then tours. Challenge the music-industry rules we're following and break the ones that are dead.", "should_trigger": true },
+  { "query": "Strip away the conventions in how hospitals schedule surgeries and tell me which constraints are genuinely load-bearing versus inherited habit.", "should_trigger": true },
+  { "query": "Everyone says you need a co-founder and VC money to start a hardware company. Put those assumptions on trial.", "should_trigger": true },
+  { "query": "Are we even solving the right problem with our churn project? Reframe the problem statement a few different ways.", "should_trigger": false },
+  { "query": "Here's our launch plan. Run a pre-mortem and poke holes in it — how does this fail?", "should_trigger": false },
+  { "query": "Give me a full think-different session on our city's public transport, using whichever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "Fix the failing unit test in src/billing/invoice.test.ts.", "should_trigger": false },
+  { "query": "How would a beekeeper or an air traffic controller solve our warehouse routing problem? Borrow ideas from distant fields.", "should_trigger": false }
+]

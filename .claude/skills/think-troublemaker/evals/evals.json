@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-troublemaker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our indie bookshop's plan for next year is the usual: more author events, a loyalty card, and pushing online orders through our website. It all feels safe and a bit dead. Make some trouble — throw crazy provocations at it, find anything usable, then tell me honestly whether the new stuff or our current plan is more likely to fail.",
+      "expected_output": "A Troublemaker's report showing which labelled provocations moved and the 1–3 concrete ideas they became, a side-by-side pre-mortem of the strongest idea versus the current plan (events, loyalty card, online orders) with kill/wound/scratch severities and hardening moves, a switch/hybrid/stay verdict, a first piece of trouble, and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-troublemaker-provocateur, think-troublemaker-movement-miner, and think-troublemaker-red-teamer were each spawned, in that order, each only after the previous one returned",
+        "The provocateur's list has 10–15 provocations, each labelled with a technique, spanning at least four distinct techniques, with no evaluative commentary such as 'impractical' or 'could work if' attached",
+        "Every mined idea names the provocation and movement technique it came from, and at least one provocation is explicitly marked barren",
+        "The pre-mortem attacks both the strongest mined idea and the stated plan (author events, loyalty card, online orders), grading each failure kill, wound, or scratch and pairing each with a hardening move",
+        "The final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We're migrating our monolith to microservices over the next 12 months — the plan's approved and the team is excited. Play devil's advocate and poke holes in it, but also give me some genuinely lateral alternatives so it's not just negativity.",
+      "expected_output": "Provocations aimed at the migration's taken-for-granted assumptions, concrete ideas mined from them, and a symmetric pre-mortem in which the approved microservices migration is the status quo attacked on the same kill/wound/scratch scale as the strongest alternative, ending in a switch/hybrid/stay verdict with hardening moves.",
+      "files": [],
+      "expectations": [
+        "The red-teamer treats the approved microservices migration as the status-quo plan and attacks it on the same kill/wound/scratch scale as the strongest mined idea",
+        "At least one status-quo failure is a slow or quiet one (e.g. the migration dragging on, opportunity cost, eroding delivery speed), not only a dramatic outage",
+        "The provocations include at least one exaggeration (×1000 or ÷1000) and at least one escape that removes something taken for granted about the system or the migration",
+        "Mined ideas are concrete moves stating who does what differently, not restatements of the provocations",
+        "The final verdict states switch, hybrid, or stay and names the hardening moves that make the chosen path survivable"
+      ]
+    }
+  ]
+}

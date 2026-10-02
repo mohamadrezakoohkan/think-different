@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-rebel",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We run a small dental clinic and every competitor does the same thing: book a 6-month checkup, patient sits in a waiting room, hygienist cleans, dentist pops in for 5 minutes. I feel like we're all following rules nobody questions. Rebel against them for me.",
+      "expected_output": "A Rebel's verdict that lists the load-bearing rules (e.g. licensed clinicians, sterilisation, patient safety) separately from 1–3 broken rules, each with why it's dead, a concrete break, and its payoff, ending with a first act of rebellion and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-rebel-rule-excavator, think-rebel-fence-inspector, and think-rebel-rule-breaker were each spawned, in that order",
+        "The rule inventory contains at least 10 rules and includes implicit or inherited rules, not only explicit regulations",
+        "Hard limits such as licensing, sterilisation, or patient safety are marked load-bearing and are not broken",
+        "Each proposed break names a concrete operational change (who does what differently), not a generic instruction like 'rethink scheduling'",
+        "The final output separates 'Rules that hold' from 'Rules to break' and ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our engineering team has a rule that every PR needs two approvals and a full CI run before merge, plus a weekly release train on Thursdays. Releases feel slow. Which of these constraints are actually real, and what could we do if we dropped the fake ones? Think from first principles.",
+      "expected_output": "Verdicts that judge each process rule on its original purpose (e.g. catching defects, auditability) and whether it still holds, followed by breaks only for dead/weakened rules with concrete alternatives (e.g. trunk-based deploys behind flags), while keeping any genuine compliance or safety requirement intact.",
+      "files": [],
+      "expectations": [
+        "Each rule's verdict cites the problem the rule originally solved and whether that condition still holds",
+        "At least one rule is ruled load-bearing or weakened rather than every rule being declared dead",
+        "Breaks are proposed only for rules ruled dead or weakened",
+        "At least one break uses an inversion (doing the opposite on purpose), not only deletion",
+        "The output names a first act of rebellion that could be started within a week"
+      ]
+    }
+  ]
+}

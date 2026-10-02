@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-inspirer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a 6-person team building an open-source tool that turns a city council's 400-page budget PDF into plain-language, searchable spending stories. Three towns use it so far. We pitch a civic-tech foundation next week and I get 2 minutes on stage. Make people care.",
+      "expected_output": "An Inspirer's piece built on a core truth stated as a belief with a named enemy (e.g. that publishing a PDF counts as transparency), a ~2-minute spoken pitch following world today, misfit belief, vision, proof, call to action, with a foundation-specific ask, an audience report covering at least a skeptic and the foundation decision-maker, and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The agents think-inspirer-truth-distiller, think-inspirer-storyteller, and think-inspirer-audience-simulator were spawned in that order, and the storyteller was re-run at most once (only if the simulator flagged a blocking note), with no second simulator run",
+        "The core truth is a belief with a named enemy (a status quo or belief about public budgets or transparency), not a product tagline such as 'making budgets accessible'",
+        "The pitch is roughly 2 minutes spoken (about 230–330 words) and ends with a call to action specific to a foundation, such as funding a pilot or a set number of cities",
+        "The proof uses the three towns at their real size and does not invent larger usage numbers, users, or outcomes not given in the prompt",
+        "The audience report covers at least 3 distinct personas including a skeptic and the foundation's decision-maker, ties reactions to specific lines, and the final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our 200-person logistics company is scrapping the annual performance review and replacing it with monthly peer feedback. People are nervous about it. Write the internal memo from our CEO announcing the change — I want them to actually believe in it, not just comply.",
+      "expected_output": "An internal CEO memo (not a spoken pitch) that names the enemy (judging a year of work in one meeting), acknowledges the nervousness concretely, uses images from logistics work rather than generic mission-speak, tested on audiences including an employee it is for and a skeptic, with any revision explained.",
+      "files": [],
+      "expectations": [
+        "The final piece is written as an internal memo from the CEO to employees, not as a spoken pitch or keynote",
+        "The memo addresses the nervousness directly and concretely (what changes for an employee, what does not) instead of ignoring it",
+        "The memo uses concrete images from logistics work (e.g. drivers, warehouse shifts, dispatch) and does not imitate the 'Here's to the crazy ones' cadence or generic phrases like 'we're on a mission to'",
+        "The simulated audiences include the person it is for (a frontline employee) and a skeptic such as a manager or someone burned by past changes, each with line-referenced reactions",
+        "The output states whether a revision was made and why — tied to a blocking note from the simulation, or 'none' if no blocking notes — and lists where the memo may still lose someone"
+      ]
+    }
+  ]
+}

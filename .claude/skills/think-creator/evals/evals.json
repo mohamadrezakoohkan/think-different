@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We brainstormed ways to get more people into our small independent bookshop on weekday evenings. The list: (1) a silent reading night with a £5 ticket that includes a drink, (2) a loyalty card, (3) a 'blind date with a book' wall, (4) monthly author Q&As, (5) a subscription box, (6) staying open until 9pm, (7) a book swap shelf, (8) a 'stay as long as you like' reading-room membership with a desk and wifi. We can't do all of these. Pick one, make it real enough to show our three staff, and keep it simple.",
+      "expected_output": "One chosen idea (not a blend) with its sharp edge named and scored against the others, a kill list giving a specific reason for each of the other seven ideas, a single-medium prototype (e.g. a one-page spec, poster/landing copy, or evening storyboard) with real prices, times, and copy, an edit that shows what was cut and why plus a survival check, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-creator-converger, think-creator-prototyper, and think-creator-editor were each spawned, in that order, each one after the previous one returned",
+        "Exactly one idea is chosen rather than a hybrid of three or more ideas, and the kill list covers every other idea from the list with a specific reason (not just 'less promising')",
+        "The prototype uses a single medium and contains concrete details such as prices, times, or actual copy, with no lorem ipsum or '[details here]' placeholders",
+        "The editor's output includes a cut list where every cut has a reason, and a survival check stating whether the chosen idea's sharp edge got stronger, stayed the same, or weakened",
+        "The final output presents the chosen idea and the edited artifact in full and ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I ran think-rebel and think-misfit on our engineering onboarding — new engineers take 3 weeks to ship their first change. Here are their handoffs.\n\n## Handoff (think-rebel)\n- Biggest break: 'new hires finish the setup docs before touching code' → invert → they ship a one-line production change on day one with a buddy; setup happens around it\n- Other viable breaks: replace the 40-page onboarding wiki with a runnable checklist; let new hires pick their team after a week of rotations\n- Hard limits: production access requires completed security training; SOC 2 change approval stays\n\n## Handoff (think-misfit)\n- Top transplant: the restaurant 'stage' (trial shift) — the new engineer pairs on a real ticket in their first hour\n- Second: video-game tutorial levels — a sandbox repo with scripted quests that teach the deploy pipeline\n- Third: hospital checklists — a 10-item day-one checklist owned by the buddy, not the new hire\n\nPick one and make it tangible. I need something to put in front of our engineering managers on Monday.",
+      "expected_output": "An idea pool built from both handoffs with sources, overlapping ideas (day-one production change and the restaurant stage) clustered with the sharpest version kept, one chosen idea that respects the security-training and SOC 2 hard limits, a manager-facing prototype such as a one-page spec or day-one storyboard with named steps, owners, and times rather than implementation code, then an edited version with a cut list, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The converger's idea pool is built from the PRIOR handoffs, listing items from both think-rebel and think-misfit with their source, rather than inventing new ideas",
+        "Ideas that are the same move in different clothes (e.g. the day-one production change and the restaurant 'stage') are clustered together, and the bolder, more specific version represents the cluster",
+        "The chosen idea and its prototype keep the stated hard limits intact — security training before production access and SOC 2 change approval are not bypassed",
+        "The prototype is aimed at engineering managers (e.g. a one-page spec or day-one storyboard with named steps, owners, and times) and contains no production-ready implementation code",
+        "The final output includes both a kill list and a cut list with reasons and ends with a '## Handoff' section"
+      ]
+    }
+  ]
+}

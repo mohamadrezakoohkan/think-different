@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-explorer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Two of us are thinking about building a tool for independent physiotherapists to manage their patients' home-exercise programs. Physitrack and MedBridge already exist. Map the landscape for me, show me where the real gaps are, and tell me how we could test the best one cheaply before writing any code.",
+      "expected_output": "An Explorer's map built on 2–3 challenge-specific axes (e.g. who drives adherence, how the program adapts between visits) rather than price vs features, with named apps plus workarounds such as paper handouts, YouTube links, or WhatsApp placed on it; white-space regions each diagnosed as tried-and-failed, impossible, overlooked, or newly viable, with traps listed separately; and a top-ranked probe that needs no code, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-explorer-territory-mapper, think-explorer-frontier-scout, and think-explorer-expedition-planner were each spawned, in that order, with each receiving the previous step's output",
+        "The chosen axes are specific to the outcome of this challenge (for example patient adherence or who adapts the program) rather than generic price-vs-quality or simple-vs-powerful, and at least one conventional axis is named as deliberately set aside",
+        "The map places workarounds or non-consumption (for example paper handouts, YouTube videos, messaging apps, or doing nothing) alongside named competitors",
+        "Every white-space region carries a why-it's-empty diagnosis (tried-and-failed, impossible, overlooked, or newly viable), and at least one region is listed as a trap or as tried-and-failed with what has or hasn't changed since",
+        "The first probe has a hypothesis, an experiment that does not require building the product, a cost/time estimate, and a numeric go/no-go threshold, and the final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our city library system is losing people in their 20s and 30s. What are all the options out there — what are other libraries, bookshops, coworking spaces, and apps doing for that crowd — and is there white space nobody's going after? Then plan a few cheap experiments we could run at a single branch.",
+      "expected_output": "A landscape that places libraries alongside substitutes from outside the category (coworking, cafés, bookshops, Libby, podcasts, Meetup-style clubs) on axes tied to why young adults show up, a set of diagnosed empty regions with newly viable ones naming the specific change, traps called out, and 2–3 probes runnable at one branch ranked by learning per cost, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The territory mapper's output names candidate dimensions and explains why the chosen 2–3 axes decide whether young adults engage, before any white space is discussed",
+        "Placements include substitutes from outside the library category (for example coworking spaces, cafés, bookshops, reading apps, podcasts, or social clubs), not only other libraries",
+        "Any region diagnosed as newly viable names the specific change that made it viable, and any region diagnosed as tried-and-failed names who tried and why it failed",
+        "The probes are explicitly ranked by learning per cost, and at least one can be run at a single branch within about two weeks on a small budget, with a go/no-go threshold set before it runs",
+        "The final output separates white space worth exploring from traps and ends with a '## Handoff' section"
+      ]
+    }
+  ]
+}

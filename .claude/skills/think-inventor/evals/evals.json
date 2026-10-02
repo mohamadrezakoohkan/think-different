@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-inventor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We make e-bikes for city commuters. Riders keep asking for more range, but a bigger battery makes the bike too heavy to carry up the stairs to their apartment, and that's a dealbreaker for a lot of them. Everyone in the market just picks a mid-size battery. Invent something better than that — not just 'a better battery'.",
+      "expected_output": "An Inventor's output that names the core contradiction (range vs weight/carryability) and the mid-size-battery compromise, then presents 3 mechanisms that escape it (e.g. separation in space or time — the heavy part never goes upstairs), each with a numbered sequence of operation, a key insight, what must be proven, and a cheapest test with a kill condition, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-inventor-decomposer, think-inventor-recombiner, and think-inventor-mechanism-sketcher were each spawned, in that order, each after the previous one returned",
+        "The decomposer's morphological matrix has at least 6 rows written as functions or attributes, each with a current value and at least 3 alternatives",
+        "The core contradiction is stated explicitly in the form 'improving range worsens weight/carryability' (or equivalent), and the mid-size battery is identified as the field's compromise",
+        "At least one of the 3 final mechanisms resolves the contradiction via a named separation principle (time, space, condition, or scale) or inventive principle rather than a different battery size",
+        "Each of the 3 final mechanisms has a numbered sequence of operation and a cheapest test with a stated kill condition, and the final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I run ops at a grocery delivery startup. Customers want delivery windows as tight as 15 minutes, but tight windows wreck our route density and driver cost per drop. The whole industry just offers 1-hour slots as a compromise. Use TRIZ or whatever works to invent a mechanism that actually gives us both.",
+      "expected_output": "A morphological breakdown of grocery delivery (who/when/where the hand-off happens, how routes are fixed, how windows are promised), a contradiction of window precision vs route efficiency with the 1-hour slot named as the compromise, 8-12 concepts labelled with their separation or inventive principle, and 3 mechanisms with components and step-by-step operation — none of them simply a narrower or wider slot.",
+      "files": [],
+      "expectations": [
+        "The contradiction is stated as window precision versus route efficiency or cost per drop, and the 1-hour slot is identified as the industry's compromise",
+        "The recombiner produces between 8 and 12 concepts, each labelled with the separation principle or inventive principle that produced it",
+        "None of the 3 final mechanisms is merely a one-parameter tweak of the current solution (e.g. 'offer 30-minute windows' or 'charge more for narrow slots'); each changes at least two rows of the matrix",
+        "Each final mechanism lists its components (marked as existing or new) and a numbered sequence of operation from trigger to outcome",
+        "Each final mechanism states a one-sentence key insight explaining why it escapes the contradiction rather than compromising, and the output ends with a '## Handoff' section"
+      ]
+    }
+  ]
+}

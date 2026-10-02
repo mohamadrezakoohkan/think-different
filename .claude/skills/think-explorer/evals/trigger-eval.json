@@ -1,0 +1,22 @@
+[
+  { "query": "Map the competitive landscape for AI meeting note-taker apps and show me where everyone's clustered — is there any white space left?", "should_trigger": true },
+  { "query": "What are all our options for cutting food waste across our restaurant chain? I want to see the whole landscape before we pick one.", "should_trigger": true },
+  { "query": "where's the gap in the market for kids coding education? feels super crowded", "should_trigger": true },
+  { "query": "We're thinking about entering pet insurance. Draw a positioning map of the existing players on dimensions that actually matter and find the unserved corners.", "should_trigger": true },
+  { "query": "Before we commit six months to building this, lay out the alternative directions and how we could test each one cheaply.", "should_trigger": true },
+  { "query": "Explore the solution space for last-mile delivery in rural areas — drones, lockers, crowdsourced couriers, whatever exists — and where nobody is playing yet.", "should_trigger": true },
+  { "query": "I'm a freelance illustrator trying to find a niche. Who's out there, where are they all bunched up, and what open lane could I test without quitting my day job?", "should_trigger": true },
+  { "query": "Give me a landscape of carbon removal approaches, the white space between them, and cheap probes for the most promising gaps.", "should_trigger": true },
+  { "query": "We keep debating three ways to fix onboarding. Are there options we haven't even considered? Map them and plan small experiments to learn which works.", "should_trigger": true },
+  { "query": "What's out there for managing chronic pain without opioids? Map the alternatives — clinical, digital, DIY — and show where the gaps are.", "should_trigger": true },
+  { "query": "Our nonprofit funds literacy programs. Show me what other organisations are doing and where nobody is investing yet.", "should_trigger": true },
+  { "query": "find me the white space in payroll software for companies under 10 people", "should_trigger": true },
+  { "query": "Be an explorer: chart the territory of indie game monetization models and tell me which empty spots are empty for a good reason.", "should_trigger": true },
+  { "query": "What alternatives exist to a traditional office lease for a 30-person team? Lay out the option space and the cheapest way to try the most promising one.", "should_trigger": true },
+  { "query": "I want a map of every way people currently learn to cook, where the crowd is, and a few low-cost experiments to test an underserved angle.", "should_trigger": true },
+  { "query": "What are we missing in our churn data? Find the anomalies and blind spots that don't fit the story we've been telling ourselves.", "should_trigger": false },
+  { "query": "Invent a new mechanism for keeping delivery drones charged mid-flight — use TRIZ to resolve the battery weight versus range trade-off.", "should_trigger": false },
+  { "query": "We came out of the workshop with 40 ideas. Help me pick one, cut it down, and make a quick prototype.", "should_trigger": false },
+  { "query": "Run a full think-different session on how our city handles recycling, using whichever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "Update the README to document the new CLI flags we added last sprint.", "should_trigger": false }
+]

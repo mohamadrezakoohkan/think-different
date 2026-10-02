@@ -1,0 +1,22 @@
+[
+  { "query": "Our takeaway coffee cup has to keep the drink hot for an hour but stay cool enough to hold without a sleeve. Invent a mechanism that does both.", "should_trigger": true },
+  { "query": "Use TRIZ on our password reset flow — every bit of extra security makes it slower and more annoying. Find a way out of that trade-off.", "should_trigger": true },
+  { "query": "Do a morphological analysis of how restaurants take orders and come up with combinations nobody's tried.", "should_trigger": true },
+  { "query": "invent a new way for apartment buildings to receive packages when nobody's home", "should_trigger": true },
+  { "query": "We need a genuinely new feature concept for our language-learning app — not another streak counter, something with an actual new mechanism behind it.", "should_trigger": true },
+  { "query": "Our drone needs big propellers for lift but small ones to fit through a window. How do we get both?", "should_trigger": true },
+  { "query": "Think like an inventor: how could a city collect parking fees without meters, apps, or wardens?", "should_trigger": true },
+  { "query": "There has to be a better mechanism than escrow for paying freelancers safely. Take it apart and invent one.", "should_trigger": true },
+  { "query": "Hospital bed-exit alarms either cry wolf all night or miss real falls. Solve that contradiction for me.", "should_trigger": true },
+  { "query": "Every idea we have is 'the same dashboard but with AI'. Break the product into its functions and recombine them into something actually new.", "should_trigger": true },
+  { "query": "how would you invent a cheap way to desalinate water for a small island? sketch how it would actually work, step by step", "should_trigger": true },
+  { "query": "Payments need strong consistency but the feed needs low latency. Is there an inventive way out of that trade-off instead of just picking one?", "should_trigger": true },
+  { "query": "Design a board game mechanic where players cooperate and compete at the same time, and explain exactly how it works turn by turn.", "should_trigger": true },
+  { "query": "I want a backpack big enough for a weekend trip but small enough to count as a personal item on budget airlines. Invent it.", "should_trigger": true },
+  { "query": "Every kid at our school should get individual feedback on their essays, but teachers have ten minutes per student. Come up with a mechanism, not a policy.", "should_trigger": true },
+  { "query": "Map out the landscape of meal-kit companies on a couple of axes and show me where the white space is.", "should_trigger": false },
+  { "query": "Paint me a 10-year moonshot vision of how people will commute in 2036, as if it already exists.", "should_trigger": false },
+  { "query": "We've already picked the idea — a refill subscription. Make a quick prototype landing page and cut it down to the essentials.", "should_trigger": false },
+  { "query": "How would a termite colony or a Formula 1 pit crew handle our warehouse cooling? Borrow ideas from distant fields.", "should_trigger": false },
+  { "query": "Run a full think-different session on our museum's falling attendance, using whichever crazy-one roles fit best.", "should_trigger": false }
+]

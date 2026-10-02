@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-healer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Support tickets for our invoicing app doubled this quarter. The top complaint by far is 'I can't find where to download my invoice PDF', and our PM wants to just make the download button bigger. Before we do that, figure out who's actually hurting here and what's really going on.",
+      "expected_output": "A Healer's prescription that maps pain beyond the complaining end users (e.g. support agents absorbing the volume, customers' accountants who need the PDFs), traces the 'can't find the PDF' symptom down a causal chain to a deeper root cause rather than accepting button size as the cause, offers remedies aimed at that cause each with a do-no-harm check and success signal, and ends with a first dose and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-healer-pain-cartographer, think-healer-root-cause-diagnostician, and think-healer-remedy-designer were each spawned, in that order",
+        "The pain map names at least one hidden stakeholder beyond the end users who file tickets (for example support agents or the customer's accountant) and scores pain by frequency and intensity separately from loudness",
+        "The diagnosis treats 'can't find the download button' as a symptom and follows a causal chain at least two whys deeper, with at least one link marked as speculative or plausible rather than confirmed",
+        "Every remedy includes a do-no-harm check that names a specific stakeholder who could be hurt or explicitly states which stakeholders were checked, plus a signal for knowing it worked",
+        "The final output names a first dose startable this week and ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Night-shift nurses at our hospital keep quitting — we've lost 6 in 4 months. Exit interviews mostly say 'pay', so HR wants to offer a retention bonus. Help us understand what's really hurting them and what would actually heal it.",
+      "expected_output": "A pain map that covers emotional and social pain alongside the stated pay complaint and separates the stated want (more money) from underlying needs, a diagnosis that finds a systemic root cause (e.g. staffing ratios, scheduling, handoffs, incentives) with evidence gaps flagged, and remedies that target that cause, including a do-no-harm check that catches pain shifting to remaining or day-shift staff.",
+      "files": [],
+      "expectations": [
+        "The pain map includes emotional or social pain (for example exhaustion, feeling unsafe, isolation, being blamed) and not only functional or financial pain",
+        "'Pay' or the retention bonus is treated as a stated want or symptom, with a distinct underlying need written alongside it",
+        "The diagnosis names at least one systemic cause (an incentive, information flow, handoff, default/policy, or feedback loop) and flags at least one evidence gap with what would confirm or kill it",
+        "At least one remedy's do-no-harm check identifies pain that could shift to another group, such as remaining night-shift nurses, day-shift staff, or patients",
+        "The remedies target root causes rather than only the bonus, and any symptom-only remedy (such as the bonus) is labelled palliative"
+      ]
+    }
+  ]
+}

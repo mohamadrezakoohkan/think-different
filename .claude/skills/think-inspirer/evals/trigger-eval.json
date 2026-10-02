@@ -1,0 +1,22 @@
+[
+  { "query": "Write a 90-second pitch for our soil-moisture sensor startup that makes farmers actually care — right now it's just a feature list.", "should_trigger": true },
+  { "query": "We need a manifesto for our design studio. A real point of view about what we stand for and what we're against.", "should_trigger": true },
+  { "query": "Help me rally the team. We're pivoting from agency work to our own product and morale is in the floor. Draft what I say at Monday's all-hands.", "should_trigger": true },
+  { "query": "What's our why? We built a tool for school nurses and I can explain what it does but not why anyone should care.", "should_trigger": true },
+  { "query": "Write the launch post for our new open-source database. I want it to read like a belief, not a changelog.", "should_trigger": true },
+  { "query": "Turn our 10-year vision into a keynote opener for the annual conference, and test it on a few kinds of audience before I use it.", "should_trigger": true },
+  { "query": "make people care about our office recycling program lol, every email we send gets ignored", "should_trigger": true },
+  { "query": "I'm pitching the hospital board on a four-day week for nurses. Help me tell the story so the CFO doesn't tune out by slide two.", "should_trigger": true },
+  { "query": "Draft a vision statement for our nonprofit that teaches coding in prisons, and check how a skeptic, a donor, and a former inmate would each hear it.", "should_trigger": true },
+  { "query": "Our product is solid but our narrative is boring. Find the core truth and tell it as a story.", "should_trigger": true },
+  { "query": "Write the CEO memo announcing we're going fully remote, and make it inspiring instead of corporate.", "should_trigger": true },
+  { "query": "How do I sell my idea for a neighbourhood tool library to the city council in three minutes?", "should_trigger": true },
+  { "query": "Give our indie game studio a founding story — why we exist, what we're against, and where we're going.", "should_trigger": true },
+  { "query": "I need a fundraising pitch for our climate hardware startup that a skeptical VC would actually believe.", "should_trigger": true },
+  { "query": "Make this announcement land: we're open-sourcing our internal ML platform, and right now it reads like documentation.", "should_trigger": true },
+  { "query": "Proofread this launch post for typos and tighten the grammar, don't change the message.", "should_trigger": false },
+  { "query": "We've brainstormed 30 feature ideas. Pick the strongest one and mock up a quick prototype of it.", "should_trigger": false },
+  { "query": "If anything were possible, what would our grocery delivery company look like in 10 years? Paint a moonshot north-star vision.", "should_trigger": false },
+  { "query": "Run a full think-different session on relaunching our brand, using whichever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "Here's our business plan. Run a pre-mortem and poke holes in it — how does this fail in 18 months?", "should_trigger": false }
+]

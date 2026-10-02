@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-misfit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our hospital's emergency department has awful waiting times, and every consultant we hire tells us the same three things: more triage nurses, a fast-track lane, better bed-management software. Look at it with outsider's eyes — what have completely different fields figured out that we could steal?",
+      "expected_output": "A Misfit's find that states the ED orthodoxy (triage, fast-track, bed management) and a noun-free structural core, then presents 1–3 transplants from distant domains (not other hospitals or healthcare providers), each with how it works there, a concrete ED translation, the tissue rejection it must overcome, and distance and plausibility ratings, ending with a first graft and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "think-misfit-consensus-mapper and think-misfit-domain-raider were spawned in a single message (in parallel), and think-misfit-transplanter was spawned only after both returned, with both outputs in its prompt",
+        "The structural core contains no ED-domain nouns (e.g. no 'patient', 'hospital', 'emergency', 'nurse') and describes the problem's shape abstractly",
+        "At least 4 domains are raided from at least 3 different families, and none of them is another hospital, clinic, or healthcare provider",
+        "Triage nurses, fast-track lanes, and bed-management software appear as orthodoxy in the consensus map, not as recommended transplants",
+        "The final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We maintain an open-source developer tool and almost nobody converts to paid. Every devtools company runs the same playbook — freemium tiers, usage limits, enterprise SSO upsell. How would a totally different field get free riders to contribute? Biomimicry, history, games, anything goes.",
+      "expected_output": "Raids from distant domains (e.g. symbiosis in ecology, public-radio pledge drives, guild or commons governance, game reward loops) with causal mechanisms, translated into concrete changes for the devtool, ranked by distance-from-orthodoxy × plausibility, with any transplant that collapses back into freemium flagged as disguised orthodoxy.",
+      "files": [],
+      "expectations": [
+        "Each raid names a causal mechanism (actors, rule, and why it produces the result) rather than a surface label such as 'be the Spotify of devtools' or 'Uber for X'",
+        "No raided domain is another software, SaaS, or developer-tools company",
+        "Each transplant carries both a distance-from-orthodoxy rating and a plausibility rating, and the distance rating cites the canonical solution, taboo, or blind side it departs from",
+        "Each transplant names a tissue rejection and the adaptation needed for it to work in an open-source devtool",
+        "The final output names a first graft startable within a week and ends with a '## Handoff' section"
+      ]
+    }
+  ]
+}

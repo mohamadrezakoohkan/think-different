@@ -1,0 +1,22 @@
+[
+  { "query": "We came out of the offsite with about 30 ideas for revamping onboarding. Help me pick one and make it real enough to show the team on Friday.", "should_trigger": true },
+  { "query": "I have five app ideas and I can't decide. Choose the strongest one, tell me why the others lose, and mock up its main screen.", "should_trigger": true },
+  { "query": "ok so we've got like 12 half-baked ideas for the farmers market stall. which one do we actually do? sketch it out for me", "should_trigger": true },
+  { "query": "Here are the handoffs from think-inventor and think-explorer. Converge on one concept and prototype it.", "should_trigger": true },
+  { "query": "Our nonprofit wants better volunteer retention. The team suggested a buddy system, badges, a monthly dinner, and flexible shifts. Pick one, kill the rest, and write a one-page spec for it.", "should_trigger": true },
+  { "query": "This landing page tries to say everything. Cut it down to the essentials and keep only what makes the idea land.", "should_trigger": true },
+  { "query": "Too many ideas, not enough focus. Which of these podcast concepts should I launch with? Then storyboard the first episode.", "should_trigger": true },
+  { "query": "Make this feature idea tangible — a quick code sketch or text mock, not production code, just enough for the team to react to.", "should_trigger": true },
+  { "query": "We have three competing concepts for the new checkout flow. Pick one without averaging them into mush and prototype it.", "should_trigger": true },
+  { "query": "Turn my rough idea for a neighbourhood tool-lending library into something real — landing-page copy I could test this weekend.", "should_trigger": true },
+  { "query": "Simplify this product spec ruthlessly. Cut everything that isn't the core idea and tell me what you removed and why.", "should_trigger": true },
+  { "query": "What's the MVP of this idea — the smallest version we could put in front of customers next week? Make it.", "should_trigger": true },
+  { "query": "I keep bolting features onto my side-project concept. Edit it down to its essence and show me the stripped-back version.", "should_trigger": true },
+  { "query": "From this list of course-redesign ideas, converge on the boldest one that's still doable this semester and mock up the syllabus page.", "should_trigger": true },
+  { "query": "Our hackathon produced eight prototypes-in-waiting. Score them, pick the one worth building, and give me a storyboard I can show leadership.", "should_trigger": true },
+  { "query": "Give me 20 wild ideas for how a hotel could use its empty lobby at night.", "should_trigger": false },
+  { "query": "Write a rallying keynote opener that makes the whole company care about our new strategy.", "should_trigger": false },
+  { "query": "Implement the approved user-settings page in our React app and open a PR.", "should_trigger": false },
+  { "query": "Run a full think-different session on rural healthcare access using whichever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "Map the competitive landscape for meal-kit startups and show me where the white space is.", "should_trigger": false }
+]

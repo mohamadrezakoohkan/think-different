@@ -1,0 +1,22 @@
+[
+  { "query": "We're about to double down on enterprise sales. Before we commit, what are we not seeing? Look for our blind spots.", "should_trigger": true },
+  { "query": "Here's our Q3 churn export — something in it doesn't fit the story we keep telling the board. Find the anomalies.", "should_trigger": true },
+  { "query": "what am I missing here? we're launching a padel league app in Mexico next month and honestly everything looks too good", "should_trigger": true },
+  { "query": "Which weak signals in EV charging should we be watching before we sign a 10-year lease on three new station sites?", "should_trigger": true },
+  { "query": "Our hospital's readmission rate dropped and everyone's celebrating. Look at what's absent from this picture — the dog that didn't bark.", "should_trigger": true },
+  { "query": "Three of our 40 sales reps close twice as many deals from the same lead pool. Find the positive deviants and what the averages are hiding.", "should_trigger": true },
+  { "query": "Give me a contrarian insight about online language learning that would actually change whether we enter the market.", "should_trigger": true },
+  { "query": "Who's not in the room on our school's decision to move to a four-day week? Tell me what nobody is talking about.", "should_trigger": true },
+  { "query": "Our NPS is great but revenue is flat. Something doesn't add up — what in the data are we failing to see?", "should_trigger": true },
+  { "query": "Before we kill the free tier, check for silent failures and the workarounds users have built that we don't track.", "should_trigger": true },
+  { "query": "Is there any early sign that farmers in our region will stop buying seed through co-ops? We're deciding whether to build a direct channel.", "should_trigger": true },
+  { "query": "Read the interview notes in research/interviews/ and tell me what's surprising, what's conspicuously missing, and what early signals we're ignoring.", "should_trigger": true },
+  { "query": "The whole team agrees the signup drop is seasonal. Be the one who sees it differently.", "should_trigger": true },
+  { "query": "Scan the edges for us — fringe users, new regulation, cost curves — anything that could blindside our freight-brokerage business in the next three years.", "should_trigger": true },
+  { "query": "We're picking a neighbourhood for our second bakery. What anomalies or blind spots in this foot-traffic data should change the pick?", "should_trigger": true },
+  { "query": "How would a jazz band or an ant colony solve our team's coordination problem? Borrow mechanisms from other fields.", "should_trigger": false },
+  { "query": "Paint me a 10-year north-star vision of what our clinic could become if anything were possible.", "should_trigger": false },
+  { "query": "Map the competitive landscape of meal-kit startups and show me where the white space is.", "should_trigger": false },
+  { "query": "Run a full think-different session on our museum's falling attendance, using whichever crazy-one roles fit.", "should_trigger": false },
+  { "query": "Turn this CSV of last month's sales into a bar chart by region.", "should_trigger": false }
+]

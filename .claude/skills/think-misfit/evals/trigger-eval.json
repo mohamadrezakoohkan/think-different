@@ -1,0 +1,22 @@
+[
+  { "query": "How would nature solve our data-center cooling problem? Give me biomimicry ideas that actually transfer, not just pretty pictures of termite mounds.", "should_trigger": true },
+  { "query": "Every fintech copies each other's onboarding. What could we steal from completely different industries — airports, theme parks, anything — to make identity checks less painful?", "should_trigger": true },
+  { "query": "Look at our school cafeteria queue with fresh eyes. How would someone from a totally unrelated field fix it?", "should_trigger": true },
+  { "query": "What could a Formula 1 pit crew teach us about turning over operating rooms faster between surgeries?", "should_trigger": true },
+  { "query": "how would an ant colony organise our delivery drivers lol, serious question", "should_trigger": true },
+  { "query": "Think like a misfit about our volunteer retention problem — we keep losing people after their second shift.", "should_trigger": true },
+  { "query": "We only ever benchmark other SaaS companies. Who outside software has solved the 'get people to come back every day' problem, and what mechanism did they use?", "should_trigger": true },
+  { "query": "Cross-industry inspiration please: how do casinos, airlines, or monasteries manage scarce capacity, and could any of it work for our co-working desk bookings?", "should_trigger": true },
+  { "query": "I want analogies from distant fields for slowing the spread of misinformation in our community forum.", "should_trigger": true },
+  { "query": "How would a jazz band run our product team's quarterly planning?", "should_trigger": true },
+  { "query": "Our city wants fewer cars downtown. What have biology, history, or games done with the same kind of congestion problem that we could borrow?", "should_trigger": true },
+  { "query": "Find me ideas from outside the legal industry for making contract review faster — I'm sick of every vendor pitching the same AI redlining.", "should_trigger": true },
+  { "query": "Who, in a field nothing like ours, has already solved keeping a remote team aligned without meetings? Bring their trick back.", "should_trigger": true },
+  { "query": "Bring an outsider's lens to getting teenagers into our museum — borrow mechanisms from anywhere except other museums.", "should_trigger": true },
+  { "query": "What can a wildfire crew, a submarine, or a medieval guild teach a startup about onboarding new engineers?", "should_trigger": true },
+  { "query": "Which of our pricing assumptions are inherited habits rather than real constraints? Question them from first principles.", "should_trigger": false },
+  { "query": "Are we even framing this right? Rewrite our problem statement as a few how-might-we questions.", "should_trigger": false },
+  { "query": "Run a full think-different session on our retail strategy with whatever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "What are we missing in this quarter's numbers? Hunt for anomalies and weak signals nobody has flagged.", "should_trigger": false },
+  { "query": "Rename the variable usr to user across the codebase and fix the imports.", "should_trigger": false }
+]

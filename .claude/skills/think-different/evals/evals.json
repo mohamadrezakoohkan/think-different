@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-different",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our city library's visits have dropped 40% in five years. Every proposal so far is 'add more events' or 'build an app'. Help me think differently about this.",
+      "expected_output": "An announced arc (short arc by default: think-round-peg → one breaker chosen for 'everyone proposes the same thing' such as think-misfit or think-rebel → think-creator), each role invoked via the Skill tool with the shared brief, a short checkpoint after each role, and a final 'Think Different' synthesis with one concrete different idea, what it breaks, the top risk, a first move, runner-ups, and the safe option shown separately.",
+      "files": [],
+      "expectations": [
+        "The arc is stated with a one-line reason before any role runs",
+        "No more than five role skills are invoked, and the full eleven-role arc is not used",
+        "think-round-peg runs first and think-creator runs last",
+        "Each role after the first receives the earlier roles' '## Handoff' blocks as PRIOR rather than their full outputs",
+        "The final output names one different idea and lists the conventional/safe option separately instead of blending them"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I want a moonshot. We make insulin pens and every competitor is iterating on the same pen design. Give me the full crazy-ones treatment — 10x, not 10%.",
+      "expected_output": "The Moonshot preset (Imaginer → Rebel → Inventor → Creator → Inspirer) or a justified variant, roles run in order with checkpoints, ending in a synthesis that names a non-incremental idea, the convention it breaks, why it might work traced to the role that surfaced it, what would kill it, and a first move.",
+      "files": [],
+      "expectations": [
+        "The chosen arc starts with think-imaginer or explicitly justifies a different first role for a 10x ask",
+        "Each role is invoked through its skill rather than the orchestrator spawning think-* agents directly",
+        "A 2–3 line checkpoint is printed after each role",
+        "The synthesis attributes the winning idea and each runner-up to the role that produced it",
+        "The 'What would kill it' line names a concrete risk and a cheap way to test it"
+      ]
+    }
+  ]
+}

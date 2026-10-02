@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-seer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We run 9 climbing gyms and the board meets next month to decide whether to open two new suburban sites or put that money into our existing city gyms. The board deck says growth = new members, so suburbs win. Last year's numbers per gym (members / monthly churn / marketing spend per member / day passes sold / avg visits per member per week): Central 2,100 / 6% / €14 / 9,800 / 1.6; Harbour 1,850 / 7% / €15 / 8,900 / 1.5; Riverside 980 / 2% / €4 / 1,200 / 2.9; Northgate 1,400 / 8% / €16 / 7,400 / 1.4; Westpark 1,300 / 7% / €13 / 6,900 / 1.5; Eastside 1,250 / 6% / €12 / 6,100 / 1.7; Old Town 1,600 / 5% / €11 / 7,800 / 1.8; Station 1,100 / 9% / €18 / 5,200 / 1.3; Suburb pilot (opened 8 months ago) 600 / 11% / €22 / 4,100 / 1.1. What are we missing before we decide?",
+      "expected_output": "A Seer's insights block that names the decision at stake (two suburban sites vs reinvesting in city gyms), flags Riverside as a positive deviant (lowest spend, lowest churn, highest visit frequency) and the suburb pilot's high churn and acquisition cost as anomalies against the growth story, notes absences such as why members leave or who never joins, and keeps 1–3 decision-changing insights with confidence and a cheap check, with everything else set aside, ending with a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The three agents think-seer-anomaly-hunter, think-seer-negative-space-observer, and think-seer-weak-signal-scout were spawned in a single message (in parallel), each given only the brief and not each other's output, before any synthesis",
+        "Riverside is identified as an outlier or positive deviant with its actual figures cited (2% churn, €4 marketing per member, 2.9 visits per week), separately from any interpretation of why",
+        "The final output states the decision at stake (new suburban sites vs investing in existing city gyms) and each insight says how it would change that decision",
+        "No more than 3 insights are named, each with a confidence level and a cheapest check, and remaining observations appear under 'Set aside' rather than as insights",
+        "The final output ends with a '## Handoff' section"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I lead product for small-business lending at a regional bank. App usage among our business customers is up 40% year on year, so leadership wants to close the branch-based loan application process next spring and go app-only. Everyone agrees it's the obvious move. Before we sign off, look for blind spots — what's absent from this picture, and what early signals are we ignoring?",
+      "expected_output": "Insights grounded in absences (e.g. applicants who start in the app and finish in a branch, complex or larger loans, relationship managers and excluded owners not in the room) and dated weak signals rated strength × consequence, with the obvious rise in digital adoption set aside as already known, noting that a usage figure is not an application figure, and ending with a first check and a Handoff block.",
+      "files": [],
+      "expectations": [
+        "The negative-space output names at least two concrete absences (for example applicants who abandon the app and finish in a branch, larger or more complex loans, relationship managers or excluded business owners not in the room) and says where it looked for each",
+        "Each weak signal cites a concrete, dated instance with a source and carries a strength and consequence rating, rather than a generic trend statement",
+        "The general rise in digital or app adoption is treated as already known and set aside, not presented as a blind spot or insight",
+        "At least one lens or insight points out that the 40% figure measures app usage, not loan applications completed in-app, and treats the missing application data as a gap",
+        "Each named insight separates the observation from its interpretation, states what it would change about the app-only decision, and the output names a single first check that could be run within a week"
+      ]
+    }
+  ]
+}

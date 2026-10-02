@@ -1,0 +1,22 @@
+[
+  { "query": "Are we even solving the right problem? Our board wants a loyalty program because repeat purchases are falling.", "should_trigger": true },
+  { "query": "My boss says 'we need an app that reminds patients to take their meds'. Before we build anything, reframe the problem for me.", "should_trigger": true },
+  { "query": "Write some 'How might we…' questions for our offsite about remote collaboration feeling painful.", "should_trigger": true },
+  { "query": "I think this is an XY problem — the support team keeps asking for a faster ticketing tool. What's the real problem here?", "should_trigger": true },
+  { "query": "we've tried like 5 things to get people to the gym more and nothing sticks. maybe we framed it wrong? help", "should_trigger": true },
+  { "query": "Rewrite our hackathon problem statement. Right now it literally says 'build a chatbot for HR questions'.", "should_trigger": true },
+  { "query": "Our food bank's goal is 'distribute more food boxes'. Is that the right goal, or is there a better way to frame what we're actually trying to do?", "should_trigger": true },
+  { "query": "Every fix for downtown traffic congestion feels wrong. Question the problem itself instead of the solutions.", "should_trigger": true },
+  { "query": "Take 'customers complain checkout is slow' and give me several different framings of the problem from different angles.", "should_trigger": true },
+  { "query": "My PhD research question feels too narrow and I keep hitting dead ends. Help me reframe it.", "should_trigger": true },
+  { "query": "The product brief says 'add dark mode to increase engagement'. What problem is this really trying to solve?", "should_trigger": true },
+  { "query": "Our school wants to ban phones because kids aren't paying attention in class. What's the actual problem, and how else could we frame it?", "should_trigger": true },
+  { "query": "Leadership asked us to cut meetings by 30%. Zoom out — is that even the right target, or is something else going on?", "should_trigger": true },
+  { "query": "I started building a habit-tracking app and now I'm not sure what problem I'm solving anymore. Help me figure out the real problem.", "should_trigger": true },
+  { "query": "The client wants their website redesigned to get more leads. Reframe the brief before we accept the project.", "should_trigger": true },
+  { "query": "List every assumption baked into how we run quarterly planning and break the ones that are dead.", "should_trigger": false },
+  { "query": "Users keep churning after week two. Dig into their pain and find the root cause with 5 whys.", "should_trigger": false },
+  { "query": "Run a full think-different session on rural healthcare access using whichever crazy-one roles fit best.", "should_trigger": false },
+  { "query": "Here's our new pricing plan — red-team it and tell me all the ways it could fail.", "should_trigger": false },
+  { "query": "Rename the variable problemStatement to problem_statement across the repo.", "should_trigger": false }
+]

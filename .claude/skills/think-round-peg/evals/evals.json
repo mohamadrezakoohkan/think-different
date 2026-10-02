@@ -1,0 +1,31 @@
+{
+  "skill_name": "think-round-peg",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our city council wants us to build an app that tells residents exactly when the next bus will arrive, because bus ridership has dropped 20% in two years. Before we start building, can you check we're even solving the right problem?",
+      "expected_output": "A Round Peg reframe that exposes 'build an arrival-time app' as a smuggled-in solution, names the underlying need (getting more residents to choose the bus) separately from it, offers a new problem statement that does not presuppose an app, a wildcard framing built with a different lever, a list of what the original frame hid (e.g. non-riders, reliability, route coverage), a cheap test of the frame, and a Handoff block led by the new problem statement.",
+      "files": [],
+      "expectations": [
+        "The three agents think-round-peg-frame-auditor, think-round-peg-reframer, and think-round-peg-frame-judge were each spawned one after another, in that order, with no step run in parallel",
+        "The frame audit names building the app as a smuggled-in solution and states an underlying need (e.g. more residents choosing the bus) that does not mention an app",
+        "The reframer returns at least 8 'How might we…' framings, each tagged with a lever, using at least 6 distinct levers",
+        "The new problem statement does not presuppose an app or any other specific solution, and the wildcard framing uses a different lever from the primary",
+        "The final output ends with a '## Handoff' section whose first bullet carries the new problem statement verbatim"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "My manager asked me to 'figure out how to get engineers to write more documentation' because it takes new hires about three months to become productive. I suspect this is an XY problem. Can you reframe it?",
+      "expected_output": "An XY check that separates Y (more documentation) from X (new hires productive sooner), framings scored on leverage, fidelity, and actionability with the original scored as a control, a primary that stays faithful to faster onboarding, a list of what the original frame excluded (e.g. new hires as stakeholders, pairing, codebase complexity), and no full solution plan.",
+      "files": [],
+      "expectations": [
+        "The XY check explicitly identifies Y as more documentation and X as new hires becoming productive faster",
+        "Every framing is scored on leverage, fidelity, and actionability, and the original framing is scored alongside them as a control",
+        "The chosen primary framing still serves the underlying need of faster onboarding, and any framing that drops that need is rejected as a dodge rather than chosen",
+        "The output lists what the original frame excluded, naming at least two stakeholders, metrics, or solution classes the 'write more docs' wording ruled out",
+        "The skill stops at a new problem statement and a test of the frame, without delivering a full implementation plan for solving it"
+      ]
+    }
+  ]
+}
