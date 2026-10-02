@@ -7,6 +7,8 @@
 
 <p align="center"><strong>The misfits, rebels, and troublemakers — as a team you can call on from Claude Code.</strong></p>
 
+<p align="center"><a href="PROMPT.md"><strong>→ Unleash all eleven roles: the maximum-pressure prompt</strong></a></p>
+
 ---
 
 **Think Different** gives a problem to the people who see things differently. Each of the "crazy ones" is a **role**: a Claude Code skill with its own way of seeing. The Rebel breaks inherited rules, the Misfit steals mechanisms from distant fields, and the Round Peg asks whether the hole is the wrong shape. Every step inside a role is a dedicated **agent** that does exactly one thing, so no single pass collapses into the obvious answer.
@@ -14,6 +16,17 @@
 Point it at a product, a process, a strategy, or a plan. It convenes the right roles, passes the brief between them, and hands back **one unconventional idea worth pursuing**, along with what it breaks, what could kill it, and the first move to test it this week.
 
 > The round peg is the logo for a reason: when the peg won't fit, question the hole.
+
+## Maximum pressure
+
+> [!TIP]
+> **Want every crazy one on your problem at once?** Ask for the full arc and give it a complete brief. Each field gives a specific role something concrete to work against: your data for the Seer, your current plan for the Troublemaker, your hard limits for the Rebel, your audience for the Inspirer.
+>
+> ```text
+> Give me the full treatment, all eleven roles: think different about <your problem>.
+> ```
+>
+> **[Open the maximum-pressure prompt, with a worked example and a blank template → PROMPT.md](PROMPT.md)**
 
 ## The cast
 
